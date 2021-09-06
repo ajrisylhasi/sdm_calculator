@@ -3,7 +3,7 @@
 
 Members:
 Ajri Sylhasi,
-Name 2,
-Name 3,
-Name 4,
-Name 5.
+Anita - Please write the full name,
+Gabriel - Please write the full name,
+Sam - Please write the full name,
+Skander - Please write the full name.
