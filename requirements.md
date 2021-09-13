@@ -21,7 +21,7 @@
 # Functional Specification
 
 - All of the above
-- People can use our calculator to solve their daily problems. Calculator have functions as multyplication, division, addition, substraction, factorial.
+- People can use our calculator to solve their daily problems. Calculator have functions as multiplication, division, addition, substraction, factorial.
 - ERD
 - Screen plans
 
