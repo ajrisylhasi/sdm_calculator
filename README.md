@@ -5,5 +5,5 @@ Members:
 Ajri Sylhasi,
 Anita - Please write the full name,
 Gabriel Agbese,
-Sam - Please write the full name,
+Samat Nazarbaev,
 Skander Mahfoudh.
