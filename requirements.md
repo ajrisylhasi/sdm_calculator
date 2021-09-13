@@ -19,7 +19,7 @@
 # Functional Specification
 
 - All of the above
-- Use case
+- People can use our calculator to solve their daily problems. Calculator have functions as multyplication, division, addition, substraction, factorial.
 - ERD
 - Screen plans
 
