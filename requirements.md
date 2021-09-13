@@ -5,6 +5,10 @@
 - Current processes (model)
 - Required processes (model)
 - Law, rules, standards
+    The addition function will create a sum of the given numbers
+    The subtraction function will create a difference of the given numbers
+    The multiplication function will give a product of the given numbers
+    The division function will give the result of the division of given numbers
 - Requirement list
 - Dictionary
 
