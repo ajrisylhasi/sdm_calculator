@@ -10,6 +10,7 @@
     The subtraction function will create a difference of the given numbers
     The multiplication function will give a product of the given numbers
     The division function will give the result of the division of given numbers
+    The factorial function will give the factorial of a given number
 - Requirement list
 
 
@@ -17,6 +18,7 @@
     Sum-the result of the addition of multiple numbers
     Difference-the result of the subtraction of multiple numbers
     Product - the result of the multiplication of multiple numbers
+    Factorial - the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
 
 # Functional Specification
 
