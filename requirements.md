@@ -12,9 +12,10 @@
     The division function will give the result of the division of given numbers
 - Requirement list
 
+
 - Dictionary
     Sum-the result of the addition of multiple numbers
-    Difference-the result of the addition of multiple numbers
+    Difference-the result of the subtraction of multiple numbers
     Product - the result of the multiplication of multiple numbers
 
 # Functional Specification
