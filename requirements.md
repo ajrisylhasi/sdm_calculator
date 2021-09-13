@@ -1,3 +1,4 @@
+![Sreen plan](https://user-images.githubusercontent.com/76019638/133080868-afcdfb5a-fe6e-46fb-8162-1e939046b30c.png)
 # Requirement Specification
 
 - Currently, we are using our phones to calculate different things
