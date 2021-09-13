@@ -1,4 +1,4 @@
-![Sreen plan](https://user-images.githubusercontent.com/76019638/133080868-afcdfb5a-fe6e-46fb-8162-1e939046b30c.png)
+
 # Requirement Specification
 
 - Currently, we are using our phones to calculate different things
@@ -22,8 +22,5 @@
 
 # Functional Specification
 
-- All of the above
-- People can use our calculator to solve their daily problems. Calculator have functions as multiplication, division, addition, substraction, factorial.
-- ERD
-- Screen plans
+- Use Case: ![Sreen plan](https://user-images.githubusercontent.com/76019638/133080868-afcdfb5a-fe6e-46fb-8162-1e939046b30c.png)
 
