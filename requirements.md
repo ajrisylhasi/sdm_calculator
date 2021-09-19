@@ -7,8 +7,7 @@
 - Required processes (model)
     user enters number→number is stored→operator is selected→next number entered
     if result is requested→compute → display result
-
-else keeps computing→display when result is requested
+    else keeps computing→display when result is requested
 - Law, rules, standards
     The addition function will create a sum of the given numbers;
     The subtraction function will create a difference of the given numbers;
