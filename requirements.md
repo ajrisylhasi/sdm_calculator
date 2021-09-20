@@ -4,6 +4,7 @@
 - Currently, we are using our phones to calculate different things
 - Our wanted system would be a web based application which will make it easy to calculate different things for people surfing the web
 - Current processes (model)
+user has a calculation to make, opens the calculator app on his phone, starts entering numbers and operations, checks the result
 - Required processes (model)
     user enters number→number is stored→operator is selected→next number entered
     if result is requested→compute → display result.    
