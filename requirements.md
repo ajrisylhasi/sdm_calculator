@@ -23,7 +23,16 @@ checks the result
 - The division function will give the result of the division of given numbers;
 - The factorial function will give the factorial of a given number
 # Requirement list
-
+- Easy to navigate interface
+- List of operations that can be performed
+- Input sections
+- Output section
+- Variables to store input
+- Operation buttons
+- Functions to perform operatrions
+- Style file to enable UI design
+- "Clear All (CE)" button
+- reason for operation failure section
 
 # Dictionary
 Sum-the result of the addition of multiple numbers;
