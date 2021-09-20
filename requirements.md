@@ -8,13 +8,13 @@ user has a calculation to make, opens the calculator app on his phone.
 starts entering numbers and operations.
 checks the result
 # Required processes (model)
-*The calculator takes in numerical input from 0-9, as well as corresponding decimals and negatives.
-*The user should be able to input an operation symbol from a list of operations that can be performed.
-*The calculator must produce correct results in accordance with arithmetic rules
-*In the event of an error, the calculator should be able to provide the user with sugestions such as:
-    *"Cannot divide by zero".
-    *"Square roots of negative numbers cannot be calculated".
-*The calculator should contain a reset (CE) button to be able to restart the operation.
+-The calculator takes in numerical input from 0-9, as well as corresponding decimals and negatives.
+-The user should be able to input an operation symbol from a list of operations that can be performed.
+-The calculator must produce correct results in accordance with arithmetic rules
+-In the event of an error, the calculator should be able to provide the user with sugestions such as:
+    -"Cannot divide by zero".
+    -"Square roots of negative numbers cannot be calculated".
+-The calculator should contain a reset (CE) button to be able to restart the operation.
 
 # Law, rules, standards
 *The addition function will create a sum of the given numbers;
