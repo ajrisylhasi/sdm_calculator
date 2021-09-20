@@ -26,7 +26,5 @@ Difference-the result of the subtraction of multiple numbers;
 Product - the result of the multiplication of multiple numbers;
 Factorial - the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
 
-# Functional Specification
 
-- Use Case: ![Sreen plan](https://user-images.githubusercontent.com/76019638/133080868-afcdfb5a-fe6e-46fb-8162-1e939046b30c.png)
 
