@@ -35,10 +35,10 @@ checks the result
 - reason for operation failure section
 
 # Dictionary
-Sum-the result of the addition of multiple numbers;
-Difference-the result of the subtraction of multiple numbers;
-Product - the result of the multiplication of multiple numbers;
-Factorial - the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
+- Sum-the result of the addition of multiple numbers;
+- Difference-the result of the subtraction of multiple numbers;
+- Product - the result of the multiplication of multiple numbers;
+- Factorial - the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
 
 
 
