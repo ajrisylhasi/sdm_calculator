@@ -28,7 +28,7 @@ The user needs to make calculations
 - Result is display.
 - User Either continues calculating agian or quits the webpage when done.
 
-## Required processes (model)
+## IV.Required processes (model)
 - The calculator takes in numerical input from 0-9, as well as corresponding decimals and negatives.
 - The user should be able to input an operation symbol from a list of operations that can be performed.
 - The calculator must produce correct results in accordance with arithmetic rules
@@ -37,13 +37,13 @@ The user needs to make calculations
     - "Square roots of negative numbers cannot be calculated".
 - The calculator should contain a reset (CE) button to be able to restart the operation.
 
-## Law, rules, standards
+## V.Law, rules, standards
 - The addition function will create a sum of the given numbers;
 - The subtraction function will create a difference of the given numbers;
 - The multiplication function will give a product of the given numbers;
 - The division function will give the result of the division of given numbers;
 - The factorial function will give the factorial of a given number
-## Requirement list
+## VI.Requirement list
 - Easy to navigate interface
 - List of operations that can be performed
 - Input sections
@@ -55,7 +55,7 @@ The user needs to make calculations
 - "Clear All (CE)" button
 - reason for operation failure section
 
-## Dictionary
+## VII.Dictionary
 - Sum-the result of the addition of multiple numbers;
 - Difference-the result of the subtraction of multiple numbers;
 - Product - the result of the multiplication of multiple numbers;
