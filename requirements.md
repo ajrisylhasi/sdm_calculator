@@ -1,7 +1,12 @@
 
 # Requirement Specification
 
-- Currently, we are using our phones to calculate different things
+## I.Current Situation
+Everyone, especially students, need to use a calculator everydady for whatever calculations they need to make, whether it's related to their classes or not.
+
+We decided to make an online calculator that is very simple to use and provides basic calculation needs.
+Acknowledging the need for some more advanced operations, we provided slightly more advanced operations (like the factorial..).
+
 - Our wanted system would be a web based application which will make it easy to calculate different things for people surfing the web
 - Current processes (model)
 user has a calculation to make, opens the calculator app on his phone.
