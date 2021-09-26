@@ -20,3 +20,18 @@
 **Functional Requirements:**
 - User can easily perform operations and get a result
 - More features (operators) might be added later on
+
+## V.Functional Design:
+- System Participants:
+  - Page admins
+  - Normal users
+- Access Rights in the system:
+  - Page Admins:
+    - Full access to all parts of the page.
+    - Able to view it as a normal user (and Preview changes)
+    - Edit functions
+    - Change design
+  - Normal users:
+    - Can only access the calculator
+    - Perform calculations and display result
+    - Other features might be added
