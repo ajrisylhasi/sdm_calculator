@@ -18,11 +18,16 @@ An (AC) button to clear ongoing calculations and reset.
 
 Available operations are multiplication, addition, division, substraction, factorial, square root.
 
+## III.Current processes (model)
+The user needs to make calculations
+- They access the web page of the calculator:
 
-- Current processes (model)
-user has a calculation to make, opens the calculator app on his phone.
-starts entering numbers and operations.
-checks the result
+- Starts entering numbers and performing operations.
+- Calculations are continued.
+- AC is hit to reset and start calculating again, or calculations are simply continued.
+- Result is display.
+- User Either continues calculating agian or quits the webpage when done.
+
 ## Required processes (model)
 - The calculator takes in numerical input from 0-9, as well as corresponding decimals and negatives.
 - The user should be able to input an operation symbol from a list of operations that can be performed.
