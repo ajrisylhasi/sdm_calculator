@@ -10,6 +10,15 @@ Acknowledging the need for some more advanced operations, we provided slightly m
 ## II.Wanted System
 Allowing users (especially students) to easily access and use the web based calculator and rapidly perform operations in a very simple way using a responsive layout and clear interface.
 
+A simple yet appealing webpage where everything is visible.
+
+A button (res) that displays the result of the operation is available.
+
+An (AC) button to clear ongoing calculations and reset.
+
+Available operations are multiplication, addition, division, substraction, factorial, square root.
+
+
 - Current processes (model)
 user has a calculation to make, opens the calculator app on his phone.
 starts entering numbers and operations.
