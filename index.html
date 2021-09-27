@@ -9,13 +9,14 @@
 	<body>
 		<div>
 			<div>
+				<input type="text" name="display" id="display" disabled>
 			</div>
 			<div>
 				<div>
-					<div>+</div>
-					<div>-</div>
-					<div>x</div>
-					<div>÷</div>
+					<div><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></div>
+					<div><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></div>
+					<div><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></div>
+					<div><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></div>
 				</div>
 				<div>
 					<div><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></div>
