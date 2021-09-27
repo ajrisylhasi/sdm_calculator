@@ -8,7 +8,7 @@ body {
 	align-items: center;
 }
 input[type=button] {
-background-color: orange;
+background-color: #0b7fb5;
 border: none;
 text-decoration: none;
 color: white;
@@ -16,6 +16,13 @@ padding: 20px 20px;
 margin: 20px 20px;
 cursor: pointer;
 }
+
+input[type=text] {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid black;
+  }
+
 body > div {
 	width: 30rem;
 	margin-left: auto;
