@@ -1,5 +1,5 @@
 var state = 0;
-var operators = ["+", "-", "/", "*", "s", "%"];
+var operators = ["+", "-", "/", "*", "s", "%", "MOD"];
 var chosenOperator = "";
 var firstNumber = 0;
 var secondNumber = 0;
@@ -19,7 +19,7 @@ var addChar = function (e) {
         display.classList.remove("result");
         display.classList.remove("second");
         display.classList.add("first");
-    } else if(/\d/.test(e)) {
+    } else if(/\d/.test(e) || e == ".") {
         if(state == 0 && first.innerHTML.length < 14) {
             if(result.innerHTML!="") {
                 result.innerHTML = "";
@@ -43,8 +43,8 @@ var addChar = function (e) {
         }
     } else if((state == 1 || state == 2) && (e == "=" || e == "Enter")) {
         state = 0;
-        firstNumber = parseInt(first.innerHTML, 10);
-        secondNumber = parseInt(second.innerHTML, 10);
+        firstNumber = parseFloat(first.innerHTML, 10);
+        secondNumber = parseFloat(second.innerHTML, 10);
         if(chosenOperator == "+") {
             resultCalc = firstNumber + secondNumber;
         } else if(chosenOperator == "-") {
