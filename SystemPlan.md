@@ -17,6 +17,18 @@ Developers participating in the project:
 * Samat Nazarbaev
 * Skander Mahfoudh.
 
+The weekly breakdown of the project parts is shown in the table below:
+
+| Function    |  Description      |     Grouping        |Priority | Deadline |Estimation |Elapsed time|Remaining time|
+| ----------- |  -------|-------|------|-----|----|----|------|
+| Requirement specification    | 10-20 rows per head| Documentation|  Low|9.13.2021|4| 4| 0|     
+|Functional specification |10-20 rows per head|Documentation|Low|9.13.2021|8|4|0|
+|System plan|40-80 rows per head + Figure 1-2 |Documentation|Medium|9.20.2021|8|7|0|
+|Development|100-200 lines per person |Development|Hight|9.27.2021|12|7|0|
+|Testing|10-20 test steps per person + documentation of these |Development|Hight|9.27.2021  |12|7|0|
+|Evaluation| | |  |
+
+
 ## III. Business process model
 
 1. Our team notices a gap in the market for an browser-based calculator interface
