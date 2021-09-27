@@ -10,7 +10,7 @@
 |Sam            |Test for incorrect input error handling| V0.1  | 27-09-2021, 14H32 |successful       |                                        |
 |Ankita         |Test for decimal issues error| V0.1  | 27-09-2021, 14H32 |fail        |  A missing semicolon inside the decimal function                                      |
 |Ankita         |Test for decimal issues error| V0.2  | 27-09-2021, 14H32 |successful        |                                        |
-|Gabriel,Skander        |Test for results of square root function| V0.1 | 27-09-2021, 14H32 |successful        |                                        |
+|Gabriel,Skander        |Test for results of square root function| V0.1 | 27-09-2021, 14H32 |successful        |  Full sqr result shown                                  |
 |Gabriel        |Test for mobile responsiveness| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
 |Gabriel        |Test for continuous operations| V0.1  | 27-09-2021, 14H32 |fail        |  Operation was being reset after result in index.js|
 |Gabriel        |Test for continuous operations| V0.1  | 27-09-2021, 14H32 |successful        |                                 |
