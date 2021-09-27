@@ -8,3 +8,7 @@
 | Initial JS operation test            | V0.1          | 27-09-2021, 14H37 |successful|                                        | 
 | Test for divisibiltity by 0 error| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
 | Test for incorrect input error handling| V0.1  | 27-09-2021, 14H32 |successful       |                                        |
+| Test for decimal issues error| V0.1  | 27-09-2021, 14H32 |fail        |                                        |
+| Test for decimal issues error| V0.2  | 27-09-2021, 14H32 |successful        |                                        |
+| Test for results of square root function| V0.1 | 27-09-2021, 14H32 |successful        |                                        |
+| Test for divisibultity by 0 error| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
