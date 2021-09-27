@@ -19,8 +19,13 @@ html {
 	 background: #575757;
 	 display: flex;
 	 align-content: center;
+	 justify-content: right;
 }
- body > div > div:first-child p {
+ body > div > div:first-child > div {
+	 display: flex;
+	 align-content: center;
+}
+ body > div > div:first-child > div p {
 	 font-size: 65px;
 	 text-align: right;
 	 width: 100%;
@@ -30,14 +35,22 @@ html {
 	 justify-content: right;
 	 align-self: center;
 }
- body > div > div:first-child.first :not(p:first-child) {
+ body > div > div:first-child > div.first :not(p:first-child) {
 	 display: none;
 }
- body > div > div:first-child.second :not(p:nth-child(2)) {
+ body > div > div:first-child > div.second :not(p:nth-child(2)) {
 	 display: none;
 }
- body > div > div:first-child.result :not(p:last-child) {
+ body > div > div:first-child > div.result :not(p:last-child) {
 	 display: none;
+}
+ body > div > div:first-child > p {
+	 width: 65px;
+	 display: flex;
+	 align-self: center;
+	 font-size: 45px;
+	 margin: 0;
+	 color: #d6d6d6;
 }
  body > div > div:nth-child(2) {
 	 width: 100%;
