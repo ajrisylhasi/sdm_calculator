@@ -9,7 +9,17 @@ var addChar = function (e) {
     var result = document.getElementById('result');
     var display = document.getElementById('display');
     e = e || window.event;
-    if(/\d/.test(e)) {
+    if(e == "c") {
+        state = 0;
+        firstNumber = parseInt(first.innerHTML, 10);
+        secondNumber = parseInt(second.innerHTML, 10);
+        first.innerHTML = "";
+        second.innerHTML = "";
+        result.innerHTML = "";
+        display.classList.remove("result");
+        display.classList.remove("second");
+        display.classList.add("first");
+    } else if(/\d/.test(e)) {
         if(state == 0 && first.innerHTML.length < 14) {
             first.innerHTML += e;
             display.classList.remove("result");
@@ -20,10 +30,6 @@ var addChar = function (e) {
             display.classList.remove("first");
             display.classList.add("second");
         }
-    }  else if(e == "C") {
-        chosenOperator = "";
-        first.innerHTML = "";
-        second.innerHTML = "";
     } else if( operators.indexOf(e) > -1) {
         if(e == "s") {
             state = 2;
@@ -57,6 +63,7 @@ var addChar = function (e) {
         first.innerHTML = "";
         second.innerHTML = "";
         result.innerHTML = resultCalc;
+        first.innerHTML = resultCalc;
         display.classList.remove("second");
         display.classList.remove("first");
         display.classList.add("result");
@@ -68,7 +75,17 @@ document.onkeypress = function (e) {
     var result = document.getElementById('result');
     var display = document.getElementById('display');
     e = e || window.event;
-    if(/\d/.test(e.key)) {
+    if(e.key == "c") {
+        state = 0;
+        firstNumber = parseInt(first.innerHTML, 10);
+        secondNumber = parseInt(second.innerHTML, 10);
+        first.innerHTML = "";
+        second.innerHTML = "";
+        result.innerHTML = "";
+        display.classList.remove("result");
+        display.classList.remove("second");
+        display.classList.add("first");
+    } else if(/\d/.test(e.key)) {
         if(state == 0 && first.innerHTML.length < 14) {
             first.innerHTML += e.key;
             display.classList.remove("result");
@@ -79,7 +96,7 @@ document.onkeypress = function (e) {
             display.classList.remove("first");
             display.classList.add("second");
         }
-    } else if( operators.indexOf(e.key) > -1) {
+    } else if(operators.indexOf(e.key) > -1) {
         if(e.key == "s") {
             state = 2;
             chosenOperator = e.key;
@@ -108,6 +125,7 @@ document.onkeypress = function (e) {
         }else {
             resultCalc = 0;
         }
+        resultCalc = Math.ceil(resultCalc / 10) * 10;
         chosenOperator = "";
         first.innerHTML = "";
         second.innerHTML = "";
