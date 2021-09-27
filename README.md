@@ -3,7 +3,7 @@
 
 Members:
 Ajri Sylhasi,
-Anita - Please write the full name,
+Yalamanchili Ankita Srinivas,
 Gabriel Agbese,
 Samat Nazarbaev,
 Skander Mahfoudh.
