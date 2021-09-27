@@ -8,7 +8,7 @@
 |Sam            |Initial JS operation test            | V0.1          | 27-09-2021, 14H37 |successful|                                        | 
 |Skander        |Test for divisibiltity by 0 error| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
 |Sam            |Test for incorrect input error handling| V0.1  | 27-09-2021, 14H32 |successful       |                                        |
-|Ankita         |Test for decimal issues error| V0.1  | 27-09-2021, 14H32 |fail        |                                        |
+|Ankita         |Test for decimal issues error| V0.1  | 27-09-2021, 14H32 |fail        |  A missing semicolon inside the decimal function                                      |
 |Ankita         |Test for decimal issues error| V0.2  | 27-09-2021, 14H32 |successful        |                                        |
 |Gabriel        |Test for results of square root function| V0.1 | 27-09-2021, 14H32 |successful        |                                        |
 |Gabriel        |Test for mobile responsiveness| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
