@@ -63,7 +63,9 @@ var addChar = function (e) {
             resultCalc = resultCalc.toString() + "%";
         } else if(chosenOperator == "s") {
             resultCalc = Math.sqrt(firstNumber);
-            resultCalc = "√" + first.innerHTML + "=" + resultCalc.toString();
+            resultCalc = resultCalc.toString().substring(0,10);
+            resultCalc = "√" + first.innerHTML + "=" + resultCalc;
+            
         } else if(chosenOperator == "MOD") {
             resultCalc = firstNumber % secondNumber;
             resultCalc = resultCalc.toString();
