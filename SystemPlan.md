@@ -1,6 +1,27 @@
 # System Plan
+## I. Purpose of the system
+The purpose of the system is to allow Users to be able to perform basic mathematical calculations, on a web based interface.
 
+For the sake of the user experience, it is important that queries be written clearly and in small blocks, and in the case of more complicated questions, the queries shoild be given in smaller chunks in accordance to PEMDAS rules
 
+Only numbers can be entered in the answer fields during completion. After inputing the query, you must submit the query,by pressing the equals to (=) button.
+
+After completing the calculation, the user receive a feedback on in form of the answer, or in the event of an error, they will recueve an error message.
+
+## II. Project plan
+
+Developers participating in the project:
+* Ajri Sylhasi
+* Ankita
+* Gabriel Agbese
+* Samat Nazarbaev
+* Skander Mahfoudh.
+
+## III. Business process model
+
+1. Our team notices a gap in the market for an browser-based calculator interface
+2. We will do the software with the developers for several weeks, with documentation, concluding the necessary contracts and in the meantime we will communicate with the customer periodically.
+3. If the software suits both the tester users and the developers, we will eventually publishbr published on live servers.
 
 
 ## IV.Requirements
@@ -35,3 +56,58 @@
     - Can only access the calculator
     - Perform calculations and display result
     - Other features might be added
+
+## 6. Physical environment
+* The website is designed for the web.
+* The website will run on any of the popular web browsers. (e.g. Chrome, Firefox, Opera, Microsoft Edge, Safari, Brave)
+* Development software:
+    * Visual Studio Code
+    * Trello
+    * Github
+    
+## 7. Abstract domain model
+
+Basic operations: addition, subtraction, multiplication, division. The program will add tasks to these operations.
+UI: Allows the user to select a operations and provide answers. Feedback is also displayed on this interface.
+On the client-server side, the answer is evaluated using javascript. 
+
+## 8. Architectural plan
+
+HTML displays the buttons and labels, and general interface.
+CSS is used to style the site to make it look similar to the interface of a physical calcultor
+SCSS is used to stramline the CSS
+Javascript is used to perform the mathematical operations and return the answers.
+
+## 9. Database plan
+
+No database is required for the program as it performs calculations in real time, and does not store any user data.
+
+## 11. Test plan
+
+* Test cases:
+    1. Test of division by 0
+    2. Testing of non numerical, or operation symbol input
+    3. Appearance testing
+
+## 12. Installation plan
+
+No Isntallation is required by the user as it is browser based.
+
+* Server side system plan:
+    * Rent a web server
+    * FTP access
+        
+
+## 13. Maintenance plan
+
+Maintanance will only be necessary with the need of additional operations requested by the users.
+
+Means of update:
+* FTP
+* SSH
+
+In case of updating, it is necessary to perform:
+* Update the file on the server
+* Update documentation
+* Reruns tests
+* Document test results
