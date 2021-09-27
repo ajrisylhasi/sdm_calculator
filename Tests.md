@@ -6,7 +6,7 @@
 |Ajri           |HTML structure test | V0.1          | 27-09-2021, 14H30 |successful |                                        |
 |Gabriel, Ajri  |CSS Styling test| V0.1          | 27-09-2021, 14H35 |successful|                                        |
 |Sam,Ajri            |Initial JS operation test            | V0.1          | 27-09-2021, 14H37 |successful|                                        | 
-|Skander,Sam        |Test for divisibiltity by 0 error| V0.1  | 27-09-2021, 14H32 |successful        |                                        |
+|Skander,Sam        |Test for divisibiltity by 0 error| V0.1  | 27-09-2021, 14H32 |successful        |   Infinity was displayed                                     |
 |Sam            |Test for incorrect input error handling| V0.1  | 27-09-2021, 14H32 |successful       |                                        |
 |Ankita         |Test for decimal issues error| V0.1  | 27-09-2021, 14H32 |fail        |  A missing semicolon inside the decimal function                                      |
 |Ankita         |Test for decimal issues error| V0.2  | 27-09-2021, 14H32 |successful        |                                        |
