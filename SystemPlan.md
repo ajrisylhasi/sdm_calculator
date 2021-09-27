@@ -57,7 +57,7 @@ Developers participating in the project:
     - Perform calculations and display result
     - Other features might be added
 
-## 6. Physical environment
+## VI. Physical environment
 * The website is designed for the web.
 * The website will run on any of the popular web browsers. (e.g. Chrome, Firefox, Opera, Microsoft Edge, Safari, Brave)
 * Development software:
@@ -65,31 +65,31 @@ Developers participating in the project:
     * Trello
     * Github
     
-## 7. Abstract domain model
+## VII. Abstract domain model
 
 Basic operations: addition, subtraction, multiplication, division. The program will add tasks to these operations.
 UI: Allows the user to select a operations and provide answers. Feedback is also displayed on this interface.
 On the client-server side, the answer is evaluated using javascript. 
 
-## 8. Architectural plan
+## VIII. Architectural plan
 
 HTML displays the buttons and labels, and general interface.
 CSS is used to style the site to make it look similar to the interface of a physical calcultor
 SCSS is used to stramline the CSS
 Javascript is used to perform the mathematical operations and return the answers.
 
-## 9. Database plan
+## IX. Database plan
 
 No database is required for the program as it performs calculations in real time, and does not store any user data.
 
-## 11. Test plan
+## X. Test plan
 
 * Test cases:
     1. Test of division by 0
     2. Testing of non numerical, or operation symbol input
     3. Appearance testing
 
-## 12. Installation plan
+## XI. Installation plan
 
 No Isntallation is required by the user as it is browser based.
 
@@ -98,7 +98,7 @@ No Isntallation is required by the user as it is browser based.
     * FTP access
         
 
-## 13. Maintenance plan
+## XII. Maintenance plan
 
 Maintanance will only be necessary with the need of additional operations requested by the users.
 
