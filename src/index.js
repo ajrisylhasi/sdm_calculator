@@ -31,6 +31,7 @@ var addChar = function (e) {
         if(state == 1 && second.innerHTML.length < 14) {
             document.getElementById('second').innerHTML += e;
             display.classList.remove("first");
+            display.classList.remove("result");
             display.classList.add("second");
         }
     } else if( operators.indexOf(e) > -1) {
@@ -47,18 +48,25 @@ var addChar = function (e) {
         secondNumber = parseFloat(second.innerHTML, 10);
         if(chosenOperator == "+") {
             resultCalc = firstNumber + secondNumber;
+            resultCalc = resultCalc.toString();
         } else if(chosenOperator == "-") {
             resultCalc = firstNumber - secondNumber;
+            resultCalc = resultCalc.toString();
         } else if(chosenOperator == "*") {
             resultCalc = firstNumber * secondNumber;
+            resultCalc = resultCalc.toString();
         } else if(chosenOperator == "/") {
             resultCalc = firstNumber / secondNumber;
+            resultCalc = resultCalc.toString();
         } else if(chosenOperator == "%") {
             resultCalc = firstNumber/secondNumber*100;
+            resultCalc = resultCalc.toString() + "%";
         } else if(chosenOperator == "s") {
             resultCalc = Math.sqrt(firstNumber);
+            resultCalc = "√" + first.innerHTML + "=" + resultCalc.toString();
         } else if(chosenOperator == "MOD") {
             resultCalc = firstNumber % secondNumber;
+            resultCalc = resultCalc.toString();
         }else {
             resultCalc = 0;
         }
@@ -66,6 +74,8 @@ var addChar = function (e) {
         first.innerHTML = "";
         second.innerHTML = "";
         result.innerHTML = resultCalc;
+        first.innerHTML = resultCalc
+        firstNumber = resultCalc;
         display.classList.remove("second");
         display.classList.remove("first");
         display.classList.add("result");
