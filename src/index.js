@@ -125,7 +125,6 @@ document.onkeypress = function (e) {
         }else {
             resultCalc = 0;
         }
-        resultCalc = Math.ceil(resultCalc / 10) * 10;
         chosenOperator = "";
         first.innerHTML = "";
         second.innerHTML = "";
